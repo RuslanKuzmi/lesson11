@@ -1,0 +1,254 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap);
+
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+body{
+	background-color: antiquewhite;
+	padding-top: 30px;
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 16px;
+	color: #212836;
+}
+.header__logo {
+	display: inline-block;
+}
+.header__container {
+	max-width: 1470px;
+	width: 100%;
+	background-color: white;
+	color: black;
+	margin: 0 auto;
+	padding: 0px 135px;
+	height: 100px;
+	padding-top: 29px;
+}
+
+.header__container *{
+	
+	vertical-align: middle;
+
+}
+
+.menu__list{
+	display: inline-block;
+}
+
+.menu__item {
+	display: inline-block;
+}
+
+.header__logo {
+	margin-right: 45px;
+
+}
+.header__menu {
+	display: inline-block;
+}
+.menu {
+	
+	font-family: 'Inter';
+      font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+	
+}
+
+.menu__item:not(:last-child){
+	margin-right: 35px;
+}
+
+.menu__item:hover .raw-menu {
+		visibility: visible;
+	
+}
+.menu__item{
+position: relative;
+}
+
+.menu__item:hover{
+	background: #F4F7FF;
+	border-radius: 5px;
+}
+
+
+	
+
+
+#category::after {
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 15px;
+	background: url("../img/bird.svg") center no-repeat;
+}
+
+#fashion::after{
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 15px;
+	background: url("../img/bird.svg") center no-repeat;
+	margin-left: 50px;
+}
+
+[class*="__link"]:hover{
+	color: red;
+}
+[class*="__link"]:active{
+color: yellowgreen;
+}
+.header__logo {
+	
+}
+.menu__link{
+	padding: 40px 0px;
+}
+
+.menu__raw::before {
+	content: "";
+	display: block;
+	margin-top: -28px;
+	
+	width: 100%;
+	height: 15px;
+	background: url("../img/3.svg") no-repeat;
+	}
+
+.raw-menu {
+	
+	position: absolute;
+	left: 0px;
+	top: 300%;
+	visibility: hidden; 
+	color: #637381;
+	background: #FFFFFF;
+border: 0.5px solid black;
+border-radius: 5px;
+min-width: 180px;
+padding: 15px 0px 15px 15px;
+}
+.raw-menu__item {
+	display: block;
+}
+
+.raw-menu__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.raw-menu__link {
+}
+
+.raw-menu__item:hover .big-block{
+	visibility: visible;
+}
+
+.big-block{
+	visibility: hidden;  
+	position: absolute;
+	left: 100%;
+	top: 10%;
+	min-width: 700px;
+	background-color: white;
+	border: 0.5px solid black;
+	border-radius: 2%;
+	padding: 30px;
+}
+
+.big-block__list{
+	display: inline-block;
+} 
+
+.big-block__list_margin80{
+	margin-right: 80px;
+}
+.big-block__list_margin69{
+margin-right: 69px;
+}
+
+.big-block__list li:first-child{
+	margin-bottom: 20px;
+	font-weight: 600;
+	color: black;
+}
+
+.big-block__list li:not(:last-child){
+	margin-bottom: 12px;
+}
+
+.big-block__item{
+	display: block;
+}
+
+.big-block__discount{
+	display: inline-block;
+	max-width: 220px;
+}
+
+.discaunt{
+	position: relative;
+	background-color: rgba(205, 131, 90, 0.65);
+}
+
+.discaunt__items{
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	top: 65px;
+	left: 45px;
+	visibility: hidden;
+}
+
+.discaunt__title{
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 48px;
+	color: white;
+}
+
+.discaunt__subtitle{
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.discaunt__button{
+	color: white;
+	padding: 5px 12px;
+	background-color: blue;
+
+}
+
+.discaunt__button:hover{
+	color: blue;
+	background-color: white;
+}
+
+.discaunt:hover .discaunt__items{
+	visibility: visible;
+	
+}
+
+.discaunt:hover .discaunt__image{
+	opacity: 0.3;
+}
+
+.header__submenu {
+	margin-left: 154px;
+}
+.submenu {
+	display: inline-block;
+}
+.submenu__items {
+	display: inline-block;
+}
+.submenu__item:not(:last-child) {
+	margin-right: 20px;
+	
+}
